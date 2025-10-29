@@ -18,7 +18,7 @@ de_wn = open(de_wn_file,"r",encoding="utf-8")
 
 # You need to set the local path to PWN here:
 # e.g.: get_english_wordnet_lexicon_local(r"C:\Users\melaniesiegel\Documents\05_Projekte\WordNet\English_WN\english-wordnet-2020.xml")
-pwnfile = os.path.join(os.path.dirname(__file__), r"C:\Users\Melanie Siegel\Documents\05_Projekte\OdeNet\English_WN\english-wordnet-2021.xml")
+pwnfile = os.path.join(os.path.dirname(__file__), "english-wordnet-2021.xml")
 
 
 def get_english_wordnet_lexicon_local(pwnfile):
